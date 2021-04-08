@@ -1,0 +1,128 @@
+header{
+    margin-top: 10px;
+    height: 250px;
+   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    padding: top 163px; ;
+    width: 64px;
+    height: 1px;
+    background-color: #E72424;
+    
+    border: 1px solid #E72424;
+
+}
+
+h3::first-letter{
+    text-transform: uppercase;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*block lamp*/
+
+.lamp{
+    width: 350px;
+    height: 225px;
+    margin-right: 32px;
+    display: inline-block;
+    text-align: center;
+}
+
+.lamp_img{
+    margin-top: 20px;
+    }
+
+/*block keyboard*/
+
+.keyboard{
+    width: 350px;
+    height: 225px;
+    margin-right: 32px;
+    display: inline-block;
+    text-align: center;
+}
+
+.keyboard_img{
+    margin-top: 22px;
+
+}
+
+/*block ligtning*/
+
+.lightning{
+    width: 350px;
+    height: 225px;
+    display: inline-block;
+    text-align: center;
+}
+
+.lightning_img{
+    margin-top: 19px;
+}
+
+h2{
+    text-transform: capitalize;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}
+
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;   
+}
